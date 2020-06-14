@@ -1,0 +1,144 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 24, 2019, 9:17:03 AM
+    Author     : hp
+*/
+
+body
+{ 
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(mail2.jpg);
+  background-size: cover;
+}      
+
+.box
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 40px;
+    background: rgba(0,0,0,0.8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.box h2
+{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.box .inputBox
+{
+    position: relative;
+}
+
+.box .inputBox input
+{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+.box .inputBox label
+{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;  
+}
+
+.box .inputBox input:focus ~ label
+{
+    top: -40px;
+    left: 0;
+    color: blue;
+    font-size: 18px;
+}
+
+.link
+{
+  color: cyan;
+  text-shadow:-1px -1px 0 #000,1px -1px 0 #000, -1px 1px 0 #000,1px 1px 0 #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: serif;
+  font-size: 20px;
+
+}
+
+.link:hover
+{
+ color: mediumorchid;
+  background: cyan;
+}
+
+.lnk
+{
+   background: rgb(0,0,156);
+  width: 100%;
+  top: 100%;
+  padding: 10px;
+}
+
+.button input[type="submit"]
+{
+  width: 30%;
+  position: center;
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #1c8adb;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.button input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: #39dc79;
+  color: #000;
+}
+
+
+ .image{
+            margin-top: -100px; 
+            margin-left: 10px;
+            border-radius: 50%;
+            -webkit-transition-duration: 0.8s;
+            -moz-transition-duration: 0.8s;
+            -o-transition-duration: 0.8s;
+            
+            -webkit-transition-property: -webkit-transform;
+            -moz-transition-property: -moz-transform;
+            -o-transition-property: -o-transform;
+            transition-property: transform;
+            overflow: hidden;
+        }
+        
+        .image:hover{
+       
+            -webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+        }

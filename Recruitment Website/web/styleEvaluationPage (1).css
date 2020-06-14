@@ -1,0 +1,185 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url(bg10.jpeg);
+  background-size: contain;
+  background-blend-mode: lighten;
+}
+h1
+{
+  color: black;
+  font-family: initial;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.general
+{
+  box-sizing: border-box;
+  top: 20%;
+  left: 50%;
+  size: 400px;
+}
+
+.general h2
+{
+  text-align: center;
+  margin: 0;
+  font-size: 25px;
+  padding: 0;
+}
+
+
+.general input{
+  width: 30%;
+  text-align: center;
+  position: static;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 10px 0;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.general label
+{
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  padding: 0px 0;
+  font-size: 20px;
+  color: black;
+}
+
+/*.evaluate input{
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.evaluate textarea{
+  border: none;
+  border-bottom: 1px solid black;
+
+}*/
+
+
+.evaluate
+{
+  box-sizing: border-box;
+  top: 20%;
+  left: 50%;
+  size: 400px;
+}
+
+.evaluate h2
+{
+  text-align: center;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+
+.evaluate input{
+  width: 30%;
+  text-align: center;
+  position: static;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 10px 0;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.evaluate label
+{
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  padding: 0px 0;
+  font-size: 20px;
+  color: black;
+}
+
+label
+{
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+input
+{
+  font-weight: bold;
+}
+
+.button input[type="submit"]
+{
+  width: 10%;
+  position: center;
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #1c8adb;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.button input[type="submit"]:hover
+{
+  cursor: pointer;
+  background: #39dc79;
+  color: #000;
+}
+
+.link
+{ color: cyan;
+  text-shadow:-1px -1px 0 #000,1px -1px 0 #000, -1px 1px 0 #000,1px 1px 0 #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: serif;
+  font-size: 20px;
+
+}
+
+.link:hover
+{
+   color: mediumorchid;
+  background: cyan;
+  
+}
+
+.lnk
+{
+  background: rgb(0,0,156);
+  width: 100%;
+  top: 100%;
+  padding: 10px;
+}
+.image{
+            margin-top: -100px; 
+            margin-left: 10px;
+            border-radius: 50%;
+            -webkit-transition-duration: 0.8s;
+            -moz-transition-duration: 0.8s;
+            -o-transition-duration: 0.8s;
+            
+            -webkit-transition-property: -webkit-transform;
+            -moz-transition-property: -moz-transform;
+            -o-transition-property: -o-transform;
+            transition-property: transform;
+            overflow: hidden;
+        }
+        
+        .image:hover{
+       
+            -webkit-transform: rotate(360deg);
+            -moz-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+        }
